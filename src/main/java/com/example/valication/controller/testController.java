@@ -11,7 +11,7 @@ import javax.validation.Valid;
 public class testController {
 
     @RequestMapping(value = "/save",method = RequestMethod.POST)
-    public String teseParm( @Valid @RequestBody AclParam aclParam){
+    public String teseParm( @Valid  AclParam aclParam){
         System.out.println(aclParam);
         //BeanValidator.check(aclParam);
         return "true";

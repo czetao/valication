@@ -1,5 +1,6 @@
 package com.example.valication.param;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -13,8 +14,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
-@Getter
-@Setter
+@Data
 @ToString
 public class AclParam implements Serializable {
 
